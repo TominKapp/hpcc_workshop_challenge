@@ -15,7 +15,7 @@ module load hpcc_workshop/2.0
 module load miniconda3
 
 mkdir -p output
-rm -rf output/output.txt
-create_output_file > output/output.txt
+rm -rf output/secret_message.txt
+create_output_file > output/secret_message.txt
 
-chmod 000 output/output.txt
+chmod 000 output/secret_message.txt
